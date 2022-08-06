@@ -12,7 +12,8 @@ public class MyCat extends Cat
      * Act - do whatever the MyCat wants to do.
      */
     public void act(){
-    if(isSleepy() == true){
+    sleep(2); //durmamos un poquito
+        if(isSleepy() == true){
         sleep(5);
     } else{
         wait(1);
